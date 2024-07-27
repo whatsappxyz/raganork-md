@@ -79,7 +79,7 @@
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
-            "description": "",
+            "description": "Raganork~c4dcd6fc712c447ce4659beec9340041:3375643156793279526b493d",
             "required": true
              
         }
