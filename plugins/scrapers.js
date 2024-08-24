@@ -122,7 +122,7 @@ Module({
     desc: Lang.IMG_DESC,
     use: 'search'
 }, (async (message, match) => {
-    if (!match[1]) return await message.sendReply(Lang.NEED_WORD);
+    if (!match[1]) return await message.sendReply(Lang.NEED_WORDS);
     var count = parseInt(match[1].split(",")[1]) || 5
     var query = match[1].split(",")[0] || match[1];
     if (badwordsRegExp.test(query)) return await message.sendReply(`_The word "${query.match(badwordsRegExp)}" is blocked!_`)
